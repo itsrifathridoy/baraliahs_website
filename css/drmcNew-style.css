@@ -1,0 +1,12 @@
+﻿/*Vendor CSS Files*/
+@import "vendor/bootstrap/css/bootstrap.min.css";
+@import "vendor/icofont/icofont.min.css";
+@import "vendor/boxicons/css/boxicons.min.css";
+@import "vendor/animate.css/animate.min.css";
+@import "vendor/venobox/venobox.css";
+@import "vendor/owl.carousel/assets/owl.carousel.min.css";
+@import "vendor/aos/aos.css";
+
+/*Main CSS File*/
+@import "css/all.css";
+@import "css/main.css";

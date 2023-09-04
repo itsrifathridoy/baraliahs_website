@@ -1,0 +1,140 @@
+body {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.apply-button {
+    /*display: none;*/
+    background: red !important;
+}
+
+@-webkit-keyframes blinker {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink {
+    animation: blinker 1s linear infinite;
+}
+
+.jubilee-align {
+    text-align: right;
+}
+
+.jubilee-img {
+    /*width: 40%;
+height: auto;
+padding-bottom: 5px;*/
+    width: auto;
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.s-img-align {
+    text-align: center;
+}
+
+.s-img-title {
+    color: #e0f573;
+    font-size: 11px;
+}
+
+.l-img-align {
+    text-align: right;
+}
+
+@media (max-width: 768px) {
+    #divTopContact {
+        display: none !important;
+    }
+
+    .jubilee-align {
+        text-align: center !important;
+    }
+
+    #divSpecial {
+        text-align: center !important;
+    }
+
+    .s-img-align {
+        text-align: center !important;
+    }
+
+    .s-img-title {
+        position: relative !important;
+    }
+
+    .l-img-align {
+        text-align: center !important;
+    }
+}
+
+/*.jubilee-img {
+width: 40%;
+height: auto;
+padding-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+.jubilee-align {
+    text-align: center !important;
+}
+}*/
+
+
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          }
+  
+     
+  img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
+  
